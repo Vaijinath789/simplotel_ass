@@ -1,0 +1,125 @@
+@media(min-width:901px)and (max-width:1112px) {
+    ul {
+        padding-left: 1px !important;
+        flex: 5;
+    }
+
+    li {
+        padding: 10px 7px 10px 7px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(33, 32, 32);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+        letter-spacing: 2px;
+        padding-left: 5px;
+    }
+
+}
+
+@media (max-width:250px) {
+    .card {
+        min-width: 100% !important;
+    }
+
+    .btn2 {
+        min-width: 100% !important;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        padding-left: 10px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .Container_header{
+        font-size: 2rem;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    ul {
+        padding-left: 10px !important;
+    }
+}
+
+@media (max-width:900px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        position: relative;
+    }
+
+    ul {
+        padding-left: 10px !important;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    #nav_bar{
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 100%;
+    }
+
+    .menu{
+        display: block;
+        padding: 10px;
+        background-color: rgb(255, 255, 255)040;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #nav_bar:checked+nav ul {
+        display: block;
+    }
+
+    #nav_bar:checked+nav .icons {
+        display: block;
+    }
+
+    .toggler button:active~nav {
+        display: block;
+    }
+
+    .Conater_info1{
+        min-width: 100% !important;
+    }
+
+    .Conater_info1 {
+        min-height: 100% !important;
+    }
+}
+
+@media (max-width:200px) {
+    .Container_header {
+        font-size: 1rem;
+    }
+
+    ul {
+        padding-left: 10px !important;
+    }
+
+    .card img {
+        height: 100px !important;
+    }
+}
